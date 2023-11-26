@@ -22,6 +22,7 @@ export default function Routes() {
                     borderTopColor: "transparent",
                 },
                 tabBarActiveTintColor: "#FFF",
+                headerShown: false
             }}
         >
             <Tab.Screen
