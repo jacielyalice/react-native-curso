@@ -9,8 +9,8 @@ export default function Home() {
     return (
         <View style={{flex: 1}}>
             <LinearGradient
-                colors={['#bdc3c7', '#2c3e50', '#000000']}
-                style={[{ padding: 15}, styles.container]}>
+                colors={['#2c3e50', '#bdc3c7']}
+                style={[{ padding: 15 }, styles.container]}>
                 <View style={styles.photoContainer}>
                     <Image
                         style={styles.photo}

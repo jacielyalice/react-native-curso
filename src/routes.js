@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 
 import Home from "./pages/Home";
 import New from "./pages/New";
-import Notification from "./pages/Notification";
+import Extrato from "./pages/Extrato";
 import Search from "./pages/Search";
 import Profile from "./pages/Profile";
 
@@ -57,8 +57,8 @@ export default function Routes() {
             />
 
             <Tab.Screen
-                name="Notification"
-                component={Notification}
+                name="Extrato"
+                component={Extrato}
                 options={{
                     tabBarIcon: ({ size, color }) => (
                         <Entypo name="notification" size={size} color={color} />
